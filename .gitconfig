@@ -1,0 +1,14 @@
+[user]
+  name = Wouter Verstraete
+  email = wouter_verstraete@hotmail.com
+
+[core]
+  editor = nano
+
+[alias]
+  st = status
+  co = checkout
+  br = branch
+
+[color]
+  ui = auto
