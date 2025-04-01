@@ -1,0 +1,26 @@
+#!/bin/bash
+
+echo "🔧 Update en installatie van tools..."
+
+# Update pakketlijsten
+sudo apt update
+
+# Installeer basispakketten
+sudo apt install -y \
+  git \
+  curl \
+  build-essential \
+  neofetch \
+  zsh \
+  htop \
+  tree \
+  wget
+
+echo "✅ Installatie voltooid!"
+
+# Pauzefunctie (voor extra interactiviteit)
+function pause() {
+  read -p "$* [ENTER]"
+}
+
+pause "Druk op ENTER om verder te gaan..."
